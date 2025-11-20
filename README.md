@@ -1,18 +1,66 @@
-# React + Vite
+# 🛍️ Product Filter App — React + Tailwind + Framer Motion
+A professional project for filtering, searching, and displaying products with an Amazon-like UI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 📌 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔎 **Live Search** for products
+- 🏷️ **Filter by Category**
+- 💵 **Filter by Price Range**
+- ⭐ **Filter by Rating**
+- 🎨 **Amazon-like UI**
+- 🌙 **Dark Mode**
+- 🎞️ **Professional animations with Framer Motion**
+- 🧩 **Clean and reusable component structure**
+- ⚡ **Optimized for high performance**
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 📁 Project Structure
 
-Note: This will impact Vite dev & build performances.
+src/
+├─ data/
+│ └─ products.js
+├─ components/
+│ ├─ Header.jsx
+│ ├─ Filters.jsx
+│ ├─ ProductsGrid.jsx
+│ ├─ ProductCard.jsx
+│ └─ Footer.jsx
+├─ App.jsx
+├─ main.jsx
+└─ index.css
+vite.config.js
+package.json
+tailwind.config.cjs
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Installation & Run
+
+### 1️⃣ Install dependencies
+```bash
+npm install
+
+npm run dev
+http://localhost:5173
+
+🛠️ Tech Stack
+Technology	Purpose
+React	Component-based structure and state management
+Tailwind CSS v4	Responsive UI design
+Framer Motion	Animations
+Vite	Fast development & build
+JavaScript (ES6)	Application logic
+❤️ About the Project
+
+This project is a practical exercise for improving React skills while building a professional product filter app.
+The code structure is clean, reusable, and perfect for GitHub portfolio or resume showcase.
+
+📬 Developer
+
+Ali Kiani
+GitHub: @ali7887
+
